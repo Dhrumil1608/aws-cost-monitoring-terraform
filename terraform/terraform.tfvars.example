@@ -1,0 +1,7 @@
+
+aws_region         = "us-east-1"
+project_name       = "aws-cost-monitoring"
+environment        = "personal"
+owner              = "YOUR_NAME"
+notification_email = "YOUR_EMAIL_ADDRESS"
+monthly_budget     = 1
