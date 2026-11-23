@@ -1,7 +1,13 @@
 
-aws_region         = "us-east-1"
-project_name       = "aws-cost-monitoring"
-environment        = "personal"
-owner              = "YOUR_NAME"
-notification_email = "YOUR_EMAIL_ADDRESS"
-monthly_budget     = 1
+aws_region          = "us-east-1"
+aws_profile         = "my-aws-profile"
+allowed_account_ids = ["YOUR_AWS_ACCOUNT_ID"]
+
+project_name        = "aws-cost-monitoring"
+environment         = "personal"
+owner               = "YOUR_NAME"
+
+notification_email  = "YOUR_EMAIL_ADDRESS"
+
+monthly_budget      = 1
+budget_thresholds   = [80, 100]

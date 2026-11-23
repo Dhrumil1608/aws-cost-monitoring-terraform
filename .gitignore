@@ -30,3 +30,9 @@ terraform.rc
 # AWS credentials and configuration
 .aws/
 credentials
+
+# Terraform plan files
+*.tfplan
+
+# Local backup files
+*.backup
